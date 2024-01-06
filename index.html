@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        #container{
+            width: 100vw;
+            height: 100vh;
+            background-color: #176B87;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row;
+        }
+        #box{
+            width:850px;
+            height:450px;
+            background-color: azure;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            
+
+        }
+        #box1{
+            background-color: #5c033ef9;
+            gap:25px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+        }
+        #box1 h1{
+            padding:10px 50px;
+            color:white;
+        }
+        #box1 p{
+            padding-left:50px;
+            padding-right: 50px;
+            color:white;
+            font-size: 0.9rem;
+        }
+        #box2 img{
+            width:425px;
+            height: 450px;
+        }
+        #box4{
+            width:360px;
+            height:70px;
+            
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-self: center;
+        }
+
+        #comments #users #veiws{
+            display:flex;
+            flex-flow: column;
+        }
+        #comments h1{
+            padding-left: 60px;;
+            padding-bottom:0px;
+            
+        }
+        #comments p{
+            padding-top: 0px;
+            padding-left: 60px;
+        }
+
+
+        #users h1{
+            padding-left: 10px;;
+            padding-bottom:0px;
+        }
+
+        #users p{
+            height:20px;width:130px;
+            padding-top: 0px;
+            
+            padding-left: 10px;
+        }
+
+        #veiws h1{
+            padding-left: 0px;;
+            padding-bottom:0px;
+        }
+        #veiws p{
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+
+
+        
+
+    
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box">
+            <div id="box1">
+                <h1>Get insights that help your business grow</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cupiditate harum culpa ratione nemo. Mollitia commodi atque laudantium tempora quasi.</p>
+                <div id="box4">
+                    <div id="comments">
+                        <h1>10K+</h1>
+                        <p>Comments</p>
+                    </div>
+                    <div id="users">
+                        <h1>214</h1>
+                        <p>Paid users</p>
+                    </div>
+                    <div id="veiws">
+                        <h1>12M+</h1>
+                        <p>Veiws</p>
+                    </div>
+                </div>
+            </div>
+            <div id="box2">
+                <img src="icon.jpg">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
